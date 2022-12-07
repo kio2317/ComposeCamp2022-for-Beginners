@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.sp
 import com.example.happybrithday.ui.theme.HappyBrithdayTheme
 // Happy Birthday Card 만들기
 
-class MainActivity : ComponentActivity() {
+class Main_Happy_birthday_Activity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -45,6 +45,7 @@ fun DefaultPreview() {
         BirthdayGreetingWithText( " Happy Birthday Kim!", "- from Emma")
     }
 }
+
 
 
 @Composable
@@ -105,4 +106,3 @@ fun BirthdayGreetingWithImage(message: String, from: String) {
         BirthdayGreetingWithText(message = message, from = from)
     }
 }
-
